@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Pilihan_Tempat"
+        android:title="Polsek Terdekat"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/ngk"
+                android:title="Polsek Nganjuk"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/skmr"
+                android:title="Polsek Sukomoro"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/bgr"
+                android:title="Polsek Bagor"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/pc"
+                android:title="Polsek Pace"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
